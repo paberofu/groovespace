@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom'
-import { styled } from 'styled-components'
 import { AppHeader } from '@/widgets/app-header'
-
-const AppLayoutContainer = styled.div``
-const AppLayoutHeader = styled.header``
-const AppLayoutMain = styled.main``
+import {
+  AppLayoutContainer,
+  AppLayoutHeader,
+  AppLayoutMain,
+} from './styled'
 
 export function AppLayout() {
   return (

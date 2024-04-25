@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
-import { styled } from 'styled-components'
-
-const AppHeaderContainer = styled.div``
-const AppHeaderNav = styled.div``
-const AppHeaderNavList = styled.ul``
-const AppHeaderNavListItem = styled.li``
+import {
+  AppHeaderContainer,
+  AppHeaderNav,
+  AppHeaderNavList,
+  AppHeaderNavListItem,
+} from './styled'
 
 const appNavItems = [
   {
