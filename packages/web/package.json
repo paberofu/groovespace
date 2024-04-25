@@ -1,0 +1,28 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "license": "MIT",
+  "type": "module",
+  "source": "index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "effector": "^23.2.1",
+    "effector-react": "^23.2.0",
+    "normalize.css": "^8.0.1",
+    "open-color": "^1.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.0",
+    "socket.io-client": "^4.7.5",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "parcel": "^2.12.0",
+    "typescript": "^5.4.5"
+  }
+}
